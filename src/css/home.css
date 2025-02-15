@@ -1,0 +1,44 @@
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 13rem;
+    width: 200%;
+    margin: 1rem;
+    border: 1px solid rgb(70, 67, 67);
+    border-radius: 2rem;
+    background: linear-gradient(135deg,#000000,#000000, #1b1b1b,#000000, #000000);
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+}
+.card:hover{
+    background: linear-gradient(135deg,#454545,#000000, #000000,#000000, #5d5d5d);
+
+    margin-bottom: 1px;
+    transition: all 0.2s ease ;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.card div {
+    margin: 5px 0;
+}
+
+.card div span {
+    color: gray;
+}
+h1 {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    color: wheat;
+    margin: 0px;
+}

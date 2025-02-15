@@ -1,0 +1,74 @@
+{
+  "country": [
+    {
+      "id": 1,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1400000000,
+      "interestingFact": "India is the world's largest democracy."
+    },
+    {
+      "id": 2,
+      "countryName": "USA",
+      "capital": "Washington, D.C.",
+      "population": 331000000,
+      "interestingFact": "The USA has the world's largest economy."
+    },
+    {
+      "id": 3,
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": 125000000,
+      "interestingFact": "Japan has more than 6,800 islands."
+    },
+    {
+      "id": 4,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 213000000,
+      "interestingFact": "Brazil is home to the Amazon Rainforest."
+    },
+    {
+      "id": 5,
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": 26000000,
+      "interestingFact": "Australia has more kangaroos than people."
+    },
+    {
+      "id": 6,
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": 38000000,
+      "interestingFact": "Canada has the longest coastline in the world."
+    },
+    {
+      "id": 7,
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": 83000000,
+      "interestingFact": "Germany is home to the world's oldest brewery."
+    },
+    {
+      "id": 8,
+      "countryName": "France",
+      "capital": "Paris",
+      "population": 67000000,
+      "interestingFact": "France is the most visited country in the world."
+    },
+    {
+      "id": 9,
+      "countryName": "South Africa",
+      "capital": "Pretoria",
+      "population": 60000000,
+      "interestingFact": "South Africa has three capital cities."
+    },
+    {
+      "id": 10,
+      "countryName": "Russia",
+      "capital": "Moscow",
+      "population": 144000000,
+      "interestingFact": "Russia is the largest country in the world by land area."
+    }
+  ]
+}

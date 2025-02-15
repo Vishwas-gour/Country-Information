@@ -1,0 +1,101 @@
+.cards2 {
+    padding: 0px 15vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border-left: 4px solid #FF3D00;
+    border-bottom: 4px solid transparent;
+    animation: rotation 0.5s linear infinite reverse;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.countainer3 {
+    height: 93vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #040404, #000000, #1b1b1b, #000000, #000000);
+}
+
+.card3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30rem;
+    min-height: fit-content;
+    border: 1px solid rgb(70, 67, 67);
+    border-radius: 2rem;
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(85, 83, 83, 0.5);
+    width: 90vw;
+    background: linear-gradient(80deg #000000, #000000, #282727, #202020, #000000);
+}
+@media (max-width:800px) {
+    .card3 {
+        grid-template-columns: auto ;
+        justify-content: center;
+    }
+    
+}
+.card3 .image-div {
+    /* border: 1px solid wheat; */
+
+    padding: 1rem;
+}
+
+.card3 .image-div img {
+    width: 15rem;
+    margin: auto;
+}
+
+.card3 .detail-div {
+
+    /* border: 1px solid wheat; */
+    display: grid;
+    gap: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(138, 138, 138);
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.card3 .detail-div  span{
+    color: white;
+}
